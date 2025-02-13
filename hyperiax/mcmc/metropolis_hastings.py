@@ -3,7 +3,7 @@ import jax
 import jax.numpy as jnp
 import numpy as np
 from tqdm import tqdm
-
+# made a change 
 def metropolis_hastings(log_target, proposal, data, init, num_samples, burn_in=0, thin=1, rng_key=None, savef=lambda x: x):
     """ MCMC using Metropolis-Hastings algorithm
 
